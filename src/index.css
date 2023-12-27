@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: #77a9b3;
+}
+
+.headPrev1{
+  height: 25px;
+  background-color: #438f9c;
+}
+
+#editor {
+  margin-bottom: 1rem; 
+  background-color: #96ccd5;
+}
+
+.editorClass{
+  height: 150px;
+}
+
+
+.headPrev2{
+  height: 25px;
+  background-color: #438f9c;
+}
+
+
+#preview{
+  border: 1px solid grey;
+  height:550px;
+  padding-top: 1rem;
+  overflow: scroll;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #96ccd5;
+}
+
+.free {
+  margin: 0 .5rem 0 .5rem
+}
+
+img{
+  max-width: 200px;
+  height: auto;
+}
+
+span{
+  cursor: pointer;
+}
+
+
+
+.editorGrower{
+  overflow-y: visible;
+  min-height: 1100px;
+}
+
+
+.hidden{
+  overflow: hidden;
+  visibility: hidden;
+}
